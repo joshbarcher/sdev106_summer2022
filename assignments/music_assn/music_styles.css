@@ -1,0 +1,66 @@
+/*
+    This file contains default styles for the favorite song page.
+    
+    Author: Josh Archer
+    Date: 7/14/21
+    File name: music_styles.css
+ */
+
+body {
+    background-color: #ececec;
+    padding: 20px;
+    font-family: Hoefler Text,Baskerville Old Face,
+                 Garamond,Times New Roman,serif;
+}
+
+header, footer, main, aside, article {
+    background-color: lightgray;
+    border: 1px solid #9d9d9d;
+    border-left: 2px solid black;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+ul {
+    font-family: Garamond,Baskerville,Baskerville Old Face,
+                 Hoefler Text,Times New Roman,serif;
+    list-style-type: none;
+    background-color: white;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+img {
+    border: 1px solid black;
+    float: right;
+    margin: 8px;
+}
+
+/* clear fix for images that fall out of elements */
+header::after, footer::after, main::after, aside::after, article::after, p::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ececec;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+tr, td {
+    padding: 6px;
+}
+
+tr th {
+    background-color: #bdbdbd;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: white;
+}
