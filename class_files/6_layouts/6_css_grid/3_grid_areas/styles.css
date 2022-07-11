@@ -17,7 +17,7 @@ img {
     margin-bottom: 10px;
 }
 
-/* make sure floated images don't drop */
+/* make sure floated practice_with_images don't drop */
 article::after {
     clear: both;
     display: table;

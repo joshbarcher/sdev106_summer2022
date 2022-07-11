@@ -37,7 +37,7 @@ img {
     margin: 8px;
 }
 
-/* clear fix for images that fall out of elements */
+/* clear fix for practice_with_images that fall out of elements */
 header::after, footer::after, main::after, aside::after, article::after, p::after {
     content: "";
     clear: both;

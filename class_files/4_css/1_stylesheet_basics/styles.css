@@ -1,0 +1,37 @@
+h1 {
+    color: #0b5b41;
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* These styles apply to the entire contents of the page */
+body {
+    background-color: beige;
+}
+
+p {
+    color: #972c2c;
+    border-left: 2px solid #972c2c;
+    padding-left: 10px;
+}
+
+img {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
