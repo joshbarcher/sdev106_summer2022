@@ -1,8 +1,16 @@
+/*
+    This has styles for the mariner's history page.
+
+	Author: Josh Archer
+	Date: 7/12/22
+	File: styles.css
+ */
+
 h1 {
     color: #0b5b41;
     font-family: Verdana;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: #972c2c underline; /* give the underline a color */
 }
 
 /* These styles apply to the entire contents of the page */

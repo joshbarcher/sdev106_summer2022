@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(15, 200, 150);
+
+    /* all 255 is white, all 0 is black, all 128 is gray */
+    color: rgb(220, 220, 220);
+}
+
+h1 {
+    background-color: #71FAE2;
+    color: #DDDDDD;
+}
