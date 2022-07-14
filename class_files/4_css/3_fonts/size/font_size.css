@@ -1,15 +1,25 @@
+/* import a font */
+body {
+    font-family: 'Lobster Two', cursive;
+}
+
 /* regular size */
 article {
-    font-size: 1em;
+    font-size: 1rem;
+    color: lightseagreen;
+    font-weight: 900;
 }
 
 /* double size */
 footer {
-    font-size: 2em;
+    font-size: 2rem;
+    text-decoration: red line-through;
+    font-family: 'Orbitron', sans-serif;
 }
 
 /* half size */
 span {
-    font-size: 0.5em;
+    font-size: 0.5rem;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
