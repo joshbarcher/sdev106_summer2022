@@ -1,0 +1,43 @@
+header {
+    background-color: #8DAB7F;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    /* apply margins to all sides */
+    margin: 12px;
+
+    /* apply margins top-bottom, left-right */
+    margin: 10px 20px;
+
+    /* apply margins on all sides (top, right, bottom, left) */
+    margin: 8px 12px 12px 10px;
+
+    /* apply margins to individual sides */
+    margin-left: 16px;
+    margin-top: 16px;
+
+    /* alternative to set individual sides */
+    margin: 16px 0 0 16px;
+}
+
+article {
+    border-width: 1.5px;
+    border-style: dashed;
+    border-color: darkblue;
+    border-radius: 5px;
+
+    margin: 16px 0 16px 16px;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
