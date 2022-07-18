@@ -18,6 +18,12 @@ header {
 
     /* alternative to set individual sides */
     margin: 16px 0 0 16px;
+
+    padding: 10px 24px;
+}
+
+h1 {
+    margin: 8px 0;
 }
 
 article {
@@ -27,14 +33,26 @@ article {
     border-radius: 5px;
 
     margin: 16px 0 16px 16px;
+    padding: 10px 24px;
     background-color: lightblue;
 }
 
+p {
+    margin: 0;
 
+    /* add padding to top & bottom only */
+    padding: 6px 0;
+}
 
+footer {
+    padding-left: 14px;
+}
 
-
-
+img {
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: darkblue;
+}
 
 
 
