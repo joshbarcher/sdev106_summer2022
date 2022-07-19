@@ -1,0 +1,60 @@
+article, aside {
+    background-color: beige;
+    border: 1px solid darkblue;
+    padding: 20px;
+}
+
+/* target p elements somewhere inside articles and asides */
+article p, aside p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+                 "DejaVu Sans Condensed", Helvetica, Arial,
+                 "sans-serif";
+    font-size: 1.3em;
+}
+
+/* target p elements that are direct children of articles */
+article > p {
+    color: darkgreen;
+}
+
+article > header > p {
+    color: darkviolet;
+}
+
+body > article > header > p {
+    text-decoration: underline;
+}
+
+header > p {
+    font-weight: bold;
+}
+
+/* target the element with an id of primary */
+#primary {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+#secondary {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.5em;
+    margin: 4pm;
+}
+
+.about-us {
+    font-style: italic;
+}
+
+.highlighted {
+    background-color: #8DAB7F;
+}
+
+#main-article header {
+    border: 2px solid #5e4704;
+    margin: 10px;
+    padding: 4px;
+}
+
+
+

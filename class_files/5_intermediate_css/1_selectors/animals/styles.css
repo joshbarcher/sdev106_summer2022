@@ -10,3 +10,26 @@ img {
     border-radius: 5px;
     width: 150px;
 }
+
+/* select all sibling images after an image */
+#favorites img ~ img {
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#others #fluffy + img {
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+img + img + img {
+    border: 5px solid yellow;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
