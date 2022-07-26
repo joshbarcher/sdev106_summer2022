@@ -1,0 +1,17 @@
+h1 {
+    color: darkblue;
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-family: 'Palatino Linotype', 'Book Antiqua',
+                 Palatino, serif;
+    margin: 12px 6px;
+}
+
+p {
+    color: #6a1b1b;
+    font-size: 0.9em;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+                 "DejaVu Sans Condensed", Helvetica, Arial,
+                 "sans-serif";
+    margin: 4px 14px;
+}

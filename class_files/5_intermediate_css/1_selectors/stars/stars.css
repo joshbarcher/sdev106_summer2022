@@ -1,0 +1,42 @@
+/* this targets an h1 that is the last child of its parent */
+h1:last-child {
+    color: blue;
+    background-color: lightblue;
+}
+
+h1:first-of-type {
+    color: #8d5152;
+}
+
+h1:last-of-type {
+    color: green;
+}
+
+/* target just Scarlett and not Denzel */
+/*#female-actors > li:nth-child(2) {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*!* another way to target Scarlett and not Denzel *!*/
+/*ul:last-child > li:nth-child(2) {*/
+/*    color: orange;*/
+/*}*/
+
+/*!* space means descendent *!*/
+/*ul#female-actors li:nth-child(2) {*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*li:nth-child(odd) {*/
+/*    background-color: #e7e6e6;*/
+/*}*/
+
+#male-actors > li:first-child, #male-actors > li:last-child {
+    color: orange;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid black;
+}
+
+
+

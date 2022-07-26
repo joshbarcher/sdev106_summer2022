@@ -1,17 +1,36 @@
-
-a:link {
-    color: #f54281;
+li {
+    list-style-type: none;
+    display: block;
 }
 
-a:visited {
+a {
+    text-decoration: none;
+    border: 2px solid darkred;
+    padding: 8px;
+    background-color: #d97d7d;
+    border-radius: 5px;
+    width: 150px;
+    display: inline-block;
+    margin: 4px 0;
+}
+
+/* never visited */
+/*a:link {
+    color: #f54281;
+}*/
+
+/* visited */
+a:link, a:visited {
     color: #972e4c;
 }
 
-a:hover {
-    color: #ff72b9;
+/* mouse hover */
+a:hover, a:active {
+    background-color: #fcc5e3;
 }
 
-a:active {
+/* clicking on */
+/*a:active {
     color: #ff2440;
-}
+}*/
 

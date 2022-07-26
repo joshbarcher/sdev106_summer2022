@@ -2,19 +2,43 @@ h1 {
     font-size: 1.2em;
 }
 
-body {
-    width: 500px;
-    margin: 0 auto;
+html {
+    background-color: white;
 }
 
+body {
+    /*width: 500px;
+    margin: 0 auto;*/
+    background-color: lightblue;
+}
+
+/* this is a block level element by default */
 p {
-    background: rgba(255,84,104,0.3);
+    background: rgba(255,84,104,1);
     border: 2px solid rgb(255,84,104);
     padding: 10px;
     margin: 10px;
+    /*width: 150px;*/
+
+    /*display: inline-block;*/
 }
 
+/* this is an inline element by default */
 span {
     background: white;
     border: 1px solid black;
+
+    margin: 20px;
+
+    /* change display from block to inline or visa versa */
+    display: none;
 }
+
+p:hover span {
+    display: inline-block;
+}
+
+
+
+
+
