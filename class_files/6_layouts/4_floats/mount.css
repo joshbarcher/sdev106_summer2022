@@ -33,4 +33,49 @@ article {
 img {
     width: 100px;
     margin: 6px;
+    float: left;
 }
+
+#john-muir {
+    float: right;
+}
+
+p {
+    padding: 4px;
+}
+
+aside {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid #dab670;
+    padding: 6px;
+    float: right;
+    width: 100px;
+}
+
+/* we can make sure the lobbying paragraph
+   falls below the floated elements
+ */
+p:nth-of-type(3) {
+    clear: right;
+}
+
+div::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
