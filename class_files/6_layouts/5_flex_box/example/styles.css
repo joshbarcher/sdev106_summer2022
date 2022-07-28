@@ -67,3 +67,44 @@ div {
 #div6, #div12 {
     background-color: rgb(207,147,167);
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* try aligning elements in the box */
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: flex-end;
+
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    margin: 50px;
+    padding: 10px;
+
+    /* constrain the height of the box */
+    height: 900px;
+
+    /* overflow handles what to do with elements that
+       fall outside the box
+     */
+    /*overflow: scroll;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
