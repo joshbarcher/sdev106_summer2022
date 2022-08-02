@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    width: 90%;
+    width: 1200px;
     margin: 0 auto;
     background-color: beige;
     border-left: 4px solid black;
@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 100px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -32,38 +32,23 @@ article, header, footer, aside {
     padding: 10px;
 }
 
-.container {
-
+div.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.3fr 1.7fr 1fr 0.3fr;
+    grid-template-areas:
+        "head  head  head  aside "
+        "jewel jewel clock book  "
+        "cloth cloth clock furn  "
+        "cloth cloth foot  foot  ";
 }
 
-header {
-
-}
-
-article#jewelry {
-
-}
-
-article#clocks {
-
-}
-
-article#clothes {
-
-}
-
-article#furniture {
-
-}
-
-article#books {
-
-}
-
-footer {
-
-}
-
-aside {
-
-}
+/* name each of my regions in my grid */
+header { grid-area: head; }
+article#jewelry { grid-area: jewel; }
+article#clocks { grid-area: clock; }
+article#clothes { grid-area: cloth; }
+article#furniture { grid-area: furn; }
+article#books {  grid-area: book; }
+footer { grid-area: foot; }
+aside { grid-area: aside; }
