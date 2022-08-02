@@ -28,31 +28,32 @@ main.container {
 }
 
 header {
-    grid-row: 1 / 2;
+    grid-row: 1;
     grid-column: 1 / 4;
 }
 
 article#jewelry {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
+    grid-row: 2;
+    grid-column: 1;
 }
 
 article#clocks {
-    grid-row: 2 / 3;
+    grid-row: 2;
     grid-column: 2 / 4;
 }
 
 article#clothes {
-    grid-row: 3 / 4;
+    grid-row: 3;
     grid-column: 1 / 3;
 }
 
 article#furniture {
-    grid-row: 3 / 4;
-    grid-column: 3 / 4;
+    grid-row: 3;
+    grid-column: 3;
 }
 
 footer {
-    grid-row: 4 / 5;
+    grid-row: 4;
     grid-column: 1 / 4;
 }
+
