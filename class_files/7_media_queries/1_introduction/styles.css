@@ -1,9 +1,9 @@
 
+/* styles for all devices */
 body {
     background-color: cornsilk;
 }
 
-/* styles for all devices */
 h1 {
     border-top: 2px solid rosybrown;
     border-bottom: 2px solid rosybrown;
@@ -19,62 +19,64 @@ p {
     margin: 30px;
 }
 
-/* styles for mobile devices */
-@media screen and (max-width: 480px) {
-    h1 {
-        background-color: #8d5152;
-        color: bisque;
-        text-align: center;
-        font-weight: bold;
+/* styles for mobile phones (portrait orientation) */
+@media screen and (max-width: 600px) {
+    p {
+        background-color: #ea837f;
+        border-bottom: 2px solid #840a0a;
+        padding: 8px;
+        margin: 0 0 6px 0;
     }
 
-    p {
-        margin: 5px;
+    h1 {
+        font-size: 1.5em;
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold",
+                     "Arial Black", "sans-serif";
+        text-align: center;
+        background-color: #f6d999;
     }
 }
 
-/* styles for tablets */
-@media screen and (min-width: 480px) {
+/* styles for table (portrait) or phone (landscape) */
+@media screen and (max-width: 1200px) {
+    /* make the article a grid */
     article {
         display: grid;
-        grid-template-areas:
-            "title title"
-            "p1    p2";
-        grid-gap: 10px;
-    }
+        grid-template-columns: 1fr 1fr;
 
-    p {
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: floralwhite;
-        padding: 8px;
-        margin: 0 10px 0 10px;
-    }
 
-    /* grid names */
-    h1 { grid-area: title; }
-    p:nth-of-type(1) { grid-area: p1; }
-    p:nth-of-type(2) { grid-area: p2; }
-}
-
-/* styles for desktops */
-@media screen and (min-width: 960px) {
-    html {
-        margin: 10px;
-    }
-
-    article {
-        grid-template-areas:
-                "title p1"
-                "p2    p2";
     }
 
     h1 {
-        background-color: cornsilk;
-        border: none;
-        text-decoration: underline;
-        margin-left: 30px;
-        margin-top: 30px;
+        grid-row: 1;
+        grid-column: 1 / 3;
+    }
+
+    /* first paragraph */
+    p:nth-of-type(1) {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    /* second paragraph paragraph */
+    p:nth-of-type(2) {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    /* change the paragraphs into two columns and change the fonts/colors */
+    p {
+        border: 1px solid #0d1f66;
+        background-color: #bdbdff;
+        border-radius: 10px;
+        padding: 10px;
     }
 }
+
+
+
+
+
+
+
 

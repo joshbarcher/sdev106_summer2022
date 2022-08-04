@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     background-color: beige;
     border-left: 4px solid black;
@@ -35,7 +35,7 @@ article, header, footer, aside {
 div.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.3fr 1.7fr 1fr 0.3fr;
+    grid-template-rows: 10% 40% 40% 10%;
     grid-template-areas:
         "head  head  head  aside "
         "jewel jewel clock book  "
