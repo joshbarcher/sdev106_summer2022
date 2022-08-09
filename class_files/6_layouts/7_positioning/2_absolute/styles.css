@@ -10,10 +10,21 @@ body {
 }
 
 article {
-
+    /* not a static position, I'm setting this so the img
+       which is absolute will be moved relative to this
+       position.
+     */
+    position: relative;
 }
 
-img {
+img#learn-1 {
     width: 150px;
+    position: absolute;
+    left: -200px;
 }
 
+img#learn-2 {
+    width: 150px;
+    position: absolute;
+    right: -250px;
+}

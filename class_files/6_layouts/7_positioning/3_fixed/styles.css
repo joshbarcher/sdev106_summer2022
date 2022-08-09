@@ -32,6 +32,13 @@ aside {
     color: white;
     padding: 6px;
     width: 150px;
+
+    /* show this aside at all times using a fixed position,
+       relative to the view-port.
+    */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 aside p {

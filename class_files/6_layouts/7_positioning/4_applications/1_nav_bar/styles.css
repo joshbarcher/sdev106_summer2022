@@ -1,6 +1,11 @@
 nav {
     background-color: black;
     color: white;
+
+    /* keep the navigation always visible at the top of the page */
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav > ul {
@@ -46,14 +51,14 @@ main p {
    the navigation bar
  */
 main p:first-child {
-
+    margin-top: 40px;
 }
 
 /* move the last paragraph above
    the footer
  */
 main p:last-child {
-
+    margin-bottom: 40px;
 }
 
 footer {
@@ -64,6 +69,10 @@ footer {
     box-sizing: border-box;
     padding: 15px;
     font-size: 1.1em;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
