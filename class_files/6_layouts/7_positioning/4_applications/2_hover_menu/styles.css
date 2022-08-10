@@ -12,8 +12,7 @@ nav > ul {
     text-align: center;
 }
 
-nav > ul > li,
-.submenu li {
+nav > ul > li, .submenu li {
     display: inline-block;
     width: 150px;
     height: 50px;
@@ -75,14 +74,23 @@ footer a {
 
 /* hover menus */
 .menu {
-
+    /* give a position that is not the default (static) */
+    position: relative;
 }
 
 .submenu {
     background-color: black;
     width: 150px;
+
+    /* position the submenus relative to the parent menu */
+    position: absolute;
+    top: 50px;
+    display: none; /* hide the menu until you hover over it */
 }
 
+/* target the element with class submenu, when you hover
+   over the element with the class menu
+*/
 .menu:hover .submenu {
-
+    display: block;
 }
