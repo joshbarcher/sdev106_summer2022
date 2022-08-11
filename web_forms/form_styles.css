@@ -8,3 +8,22 @@ input {
     border: 2px solid green;
 }
 
+select {
+    background-color: lightblue;
+}
+
+select option {
+    border: 1px solid black;
+    font-size: 0.9em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+
+
+
+
+
+
+
+
+
