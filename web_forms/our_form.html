@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Account Creation</title>
+		<link rel="stylesheet" href="form_styles.css">
 	</head>
 	<body>
 		<h1>Create a new account with us</h1>
@@ -17,6 +18,45 @@
 			<section class="form-field">
 				<label for="password">Password: </label>
 				<input type="password" id="password" name="user-password">
+			</section>
+
+			<section class="form-field">
+				<label for="confirm">Confirm password: </label>
+				<input type="password" id="confirm" name="password-confirm">
+				<span>(passwords should match)</span>
+			</section>
+
+			<section>
+				<h2>How did you hear about us?</h2>
+				<div>
+					<input type="checkbox" id="news" name="news">
+					<label for="news">News</label>
+				</div>
+				<div>
+					<input type="checkbox" id="word-of-mouth" name="word-of-mouth">
+					<label for="word-of-mouth">Word of Mouth</label>
+				</div>
+				<div>
+					<input type="checkbox" id="ad" name="advertisement">
+					<label for="ad">Advertisement</label>
+				</div>
+			</section>
+
+			<section>
+				<h2>Account Type</h2>
+				<div>
+					<input type="radio" id="paid" name="acct" value="paid-acct">
+					<label for="paid">Paid Account (ad-free)</label>
+				</div>
+				<div>
+					<input type="radio" id="free" name="acct" value="free-acct">
+					<label for="free">Free Account (ad-supported)</label>
+				</div>
+			</section>
+
+			<section>
+				<label>Send a message to our team: </label>
+				<textarea></textarea>
 			</section>
 
 			<button>Submit</button>
